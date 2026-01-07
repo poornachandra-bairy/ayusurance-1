@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAF9F6; /* Off-white / Rice Paper */
-  --foreground: #2C3E50; /* Dark Slate */
-  --primary: #3A5F40;    /* Deep Herbal Green */
-  --secondary: #D4A373;  /* Earthy Bronze/Gold */
-  --accent: #E9EDC9;     /* Soft Sage */
+  --background: #FAF9F6;
+  /* Off-white / Rice Paper */
+  --foreground: #2C3E50;
+  /* Dark Slate */
+  --primary: #3A5F40;
+  /* Deep Herbal Green */
+  --secondary: #D4A373;
+  /* Earthy Bronze/Gold */
+  --accent: #E9EDC9;
+  /* Soft Sage */
 }
 
 @theme inline {
@@ -16,11 +21,13 @@
   --color-accent: var(--accent);
   --font-sans: var(--font-lato), system-ui, sans-serif;
   --font-serif: var(--font-playfair), serif;
+  --font-display: var(--font-syne), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1a1c1a; /* Dark Jungle Green */
+    --background: #1a1c1a;
+    /* Dark Jungle Green */
     --foreground: #ededed;
   }
 }
